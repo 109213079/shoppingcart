@@ -6,6 +6,8 @@ import sys
 print("Content-type: text/html; charset: utf-8\n")
 sys.stdout.flush()
 
+print('...........')
+
 with open("main.html",'rb') as fp:
     msg="message to replace"
     msg1=b"binary string to replace"
